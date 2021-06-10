@@ -1,5 +1,19 @@
-/* untuk tablet*/
-@media all and (max-width: 1000px) {
+/* Untuk Tablet */
+@media all and (max-width:1000px){
+
+  .header-nav {
+    display:none;
+  }
+
+  .header-login {
+    display:none;
+  }
+
+  .menu-icon::before {
+    display:block;
+  }
+
+/* ----------body intro----------*/
     .profil {
         width: 100%;
     }
@@ -12,10 +26,45 @@
     .fade-in-fade-out {
         font-size: 16px;
     }
+
+    .main-col {
+      max-width: 100%;
+      font-size: 18px;
+      margin-bottom: 0 !important;
+    }
+/* ----------FOOTER----------*/ 
+
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  } 
+
+
+  .footer-col h4{
+      font-size: 15px;
+  }
+
+  .footer-col ul li a{
+      font-size: 13px;
+  }      
 }
 
-/*untuk smartphone*/
-@media all and (max-width: 670px) {
+/* Untuk Smartphone */
+@media all and (max-width:670px) {
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-login {
+    display: none;
+  }
+
+  .menu-icon::before {
+    display: block;
+  }
+
+/* ----------body intro----------*/
     .profil {
         width: 100%;
     }
@@ -34,4 +83,22 @@
     .fade-in-fade-out {
         font-size: 12px;
     }
+
+    .main-col {
+      max-width: 100%;
+      font-size: 14px;
+    }
+
+/* ----------FOOTER----------*/ 
+  .footer-col{
+    width: 100%;
+  } 
+
+  .footer-col h4{
+      font-size: 14px;
+  }
+
+  .footer-col ul li a{
+      font-size: 12px;
+  }
 }
